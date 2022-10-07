@@ -69,12 +69,12 @@ global.psaweria = '-'
 /*============== NOMOR ==============*/
 global.nomorbot = '6281265970249'
 global.nomorown = '6281265970249'
-global.namebot = 'WannBotz'
-global.nameown = 'Wannzx'
+global.namebot = '𝐖𝐚𝐧𝐧𝐁𝐨𝐭𝐳-𝐌𝐃'
+global.nameown = '𝐖𝐚𝐧𝐧𝐳𝐱-𝐌𝐝'
 
 /*============== Github Thanks To ==============*/
-global.namagithub = 'WannBotz' // nama github lu
-global.linkgithub = 'https://github.com/WannBotz/wannzx-md3' // tarok link github lu
+global.namagithub = '𝐖𝐚𝐧𝐧𝐁𝐨𝐭𝐳-𝐌𝐃' // nama github lu
+global.linkgithub = 'https://github.com/𝐖𝐚𝐧𝐧𝐁𝐨𝐭𝐳-𝐌𝐃/wannzx-md3' // tarok link github lu
 
 // klau kgk ada github kasih tanda '-' aja biar kgk error
 
@@ -85,8 +85,8 @@ global.lolkey = 'e54205a4ca2caa368cc067bb' // PUNYA WAHID  8e66d0934cf741bfd2182
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['6281265970249', 'Wannzx', true],
-  ['6283870480221', 'WannBotz', true],
+  ['6281265970249', '𝐖𝐚𝐧𝐧𝐳𝐱-𝐌𝐝', true],
+  ['6283870480221', '𝐖𝐚𝐧𝐧𝐁𝐨𝐭𝐳-𝐌𝐃', true],
   ['-', '-', true],
   ['-', '-', true],
   ['-', '-', true]
@@ -138,14 +138,14 @@ global.APIKeys = { // APIKey Here
 // Kata APIKEY itu isi dengan apikey lu sendiri, dengan beli ke website itu
 
 /*============== WATERMARK ==============*/
-global.wm = '                「 WannBotz 」' //Main Watermark
-global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘WannBotz ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
-global.wm3 = '⫹⫺ WannBotz '
+global.wm = '                「 𝐖𝐚𝐧𝐧𝐁𝐨𝐭𝐳-𝐌𝐃 」' //Main Watermark
+global.wm2 = '「 𝐖𝐚𝐧𝐧𝐁𝐨𝐭𝐳-𝐌𝐃 」'
+global.wm3 = '⫹⫺ 𝐖𝐚𝐧𝐧𝐁𝐨𝐭𝐳-𝐌𝐃 '
 global.botdate = `⫹⫺ DATE: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.bottime = `T I M E : ${wktuwib}`
-global.titlebot = `⫹⫺ WhatsApp Bot | Wannzx`
+global.titlebot = `⫹⫺ WhatsApp Bot | 𝐖𝐚𝐧𝐧𝐳𝐱-𝐌𝐝`
 global.packname = '☂︎ ᴄʀᴇᴀᴛᴇᴅ ʙʏ'
-global.author = '                「 WannBotz  あ」'
+global.author = '                「 𝐖𝐚𝐧𝐧𝐁𝐨𝐭𝐳-𝐌𝐃  あ」'
 
 /*Fake*/
 global.fsizedoc = '1'.repeat(10)
@@ -636,8 +636,8 @@ global.htjava = '⫹⫺'    //hiasan Doang :v
 global.hsquere = ['⛶','❏','⫹⫺']
 
 /*============== STICKER WM ==============*/
-global.stickpack = 'WannBotz'
-global.stickauth = `By ©Wannzx`
+global.stickpack = '𝐖𝐚𝐧𝐧𝐁𝐨𝐭𝐳-𝐌𝐃'
+global.stickauth = `By ©𝐖𝐚𝐧𝐧𝐳𝐱-𝐌𝐝`
 
 global.multiplier = 38 // The higher, The harder levelup
 
