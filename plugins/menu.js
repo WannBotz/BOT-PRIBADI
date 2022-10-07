@@ -48,7 +48,6 @@ ${emot}│☂︎ *Uptime:* %muptime
 │ *Ⓟ* = Premium
 │ *Ⓛ* = Limit
 ▣────────────⬣
-%readmore
 `.trimStart(),
   header: '⃝▣──「 %category 」───⬣',
   body: `${emot} %cmd %isPremium %islimit`,
@@ -371,10 +370,10 @@ let tek = `✧────···[ Dashboard ]···────✧
 ╰━━━━━━━━━━━━━━━━┈─◂`
 const listMessage = {
   text: tek,
-  footer: `📮 *Note:* Jika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada Owner\n\nᴍᴀᴅᴇ ᴡɪᴛʜ ❤ ʙʏ ${nameown}\n\n${botdate}\n\n${wm2}`,
+  footer: `📮 *Group:*_https://chat.whatsapp.com/Bbh5bDDQsWQBxQTaY5tHBJ_\n\n ${botdate}\n\n${wm2}`,
   mentions: await conn.parseMention(tek),
   title: ``,
-  buttonText: `CLICK HERE ⎙`, 
+  buttonText: `CLICK HERE ⎙`,
   sections
 }
   if (teks == '404') {
@@ -569,7 +568,7 @@ const listMessage = {
 
     }
 
-    conn.reply(m.chat, '*Tunggu Sebentar Kak. . .*', ftrol) 
+    conn.reply(m.chat, '「▰▰▰▱▱▱▱▱▱▱」Loading...', ftrol) 
 
     
     //------------------< MENU >----------------
@@ -583,10 +582,70 @@ const listMessage = {
             mediaType: 2,
           thumbnail: await(await fetch(thumb2)).buffer(),
          mediaUrl: sig
-        }
+}
+ }
+})*/
+/*let audio = `https://raw.githubusercontent.com/aisyah-rest/mangkane/main/Mangkanenya/${command}.mp3`
+
+await conn.sendFile(m.chat, audio, 'error.mp3', null, fkontak, true, {
+type: 'audioMessage', 
+ptt: false, seconds: 0,contextInfo: {
+         externalAdReply: { showAdAttribution: true,
+ mediaUrl: 'www.instagram.com/wannzx_133',
+    mediaType: 2, 
+    description: 'www.instagram.com/wannzx_133',
+    title: "Now Playing...",
+    body: wm,
+    thumbnail: await (await fetch('https://telegra.ph/file/c72133b197a68d3ea514d.jpg')).buffer(),
+    sourceUrl: 'www.instagram.com/wannzx_133'
+ 	  /*   sourceUrl: sig,
+           title: '◄⟬ ●━━━ ⧏ ⧎ ⧐ ━━━● ⟭►',  
+            body: 'Now Playing...', 
+           thumbnail: await (await fetch('https://telegra.ph/file/c72133b197a68d3ea514d.jpg')).buffer()
+}
      }
-    })*/
-    
+    })
+}
+
+handler.help = ['
+handler.tags = ['sound']
+handler.command = /^(mangkane25|mangkane26|mangkane27|mangkane28|mangkane29|mangkane30|mangkane31|mangkane32|mangkane33|mangkane34|mangkane35|mangkane36|mangkane37|mangkane38|mangkane39|mangkane40|mangkane41|mangkane42|mangkane43|mangkane44|mangkane45|mangkane46|mangkane47|mangkane48|mangkane49|mangkane50|mangkane51|mangkane52|mangkane53|mangkane54)$/i*/
+let mangkane25 = "mangkane25"
+let mangkane26 = "mangkane26"
+let mangkane27 = "mangkane27"
+let mangkane28 = "mangkane28"
+let mangkane29 = "mangkane29"
+let mangkane30 = "mangkane30"
+let mangkane31 = "mangkane31"
+let mangkane32 = "mangkane32"
+let mangkane33 = "mangkane33"
+let mangkane34 = "mangkane34"
+let mangkane35 = "mangkane35"
+let mangkane36 = "mangkane36"
+let mangkane37 = "mangkane37"
+let mangkane38 = "mangkane38"
+let mangkane39 = "mangkane39"
+let mangkane40 = "mangkane40"
+let snd = `${pickRandom([mangkane25,mangkane26,mangkane27,mangkane28,mangkane29,mangkane30,mangkane31,mangkane32,mangkane33,mangkane34,mangkane35,mangkane36,mangkane37,mangkane38,mangkane39,mangkane40])}`
+let audio = `https://raw.githubusercontent.com/aisyah-rest/mangkane/main/Mangkanenya/${snd}.mp3`
+await conn.sendFile(m.chat, audio, 'error.mp3', null, m, true, {
+type: 'audioMessage', 
+ptt: false, seconds: 0,contextInfo: {
+         externalAdReply: { showAdAttribution: true,
+ mediaUrl: sgc,
+    mediaType: 2, 
+    description: sgc,
+    title: "Kᴛɪᴋ .sᴏᴜɴᴅᴍᴇɴᴜ ᴜɴᴛᴋ ʏɢ ʟᴀɪɴ",
+    body: wm,
+    thumbnail: await (await fetch('https://telegra.ph/file/c72133b197a68d3ea514d.jpg')).buffer(),
+    sourceUrl: sgc
+ 	  /*   sourceUrl: sig,
+           title: '◄⟬ ●━━━ ⧏ ⧎ ⧐ ━━━● ⟭►',  
+            body: 'Now Playing...', 
+           thumbnail: await (await fetch('https://telegra.ph/file/c72133b197a68d3ea514d.jpg')).buffer()*/
+}
+     }
+    })
     //------------------ DOCUMENT
     let d1 = 'application/vnd.openxmlformats-officedocument.presentationml.presentation'
     let d2 = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
@@ -695,9 +754,9 @@ const listMessage = {
 }
 handler.help = ['menu', 'help', '?']
 handler.tags = ['main']
-handler.command = /^(menu|help|\?)$/i
+handler.command = /^(menu|\?)$/i
 
-handler.register = false
+handler.register = true
 handler.exp = 3
 
 export default handler

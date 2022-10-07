@@ -144,6 +144,34 @@ const sections = [
 	{title: "Sound 119", rowId: ".sound119"},
 ]
     },{
+	title: `${htjava} MANGKANE MENU –––––––·•`,
+	rows: [
+	{title: "Mangkane1", rowId: ".mangkane1"},
+    {title: "Mangkane2", rowId: ".mangkane2"},
+    {title: "Mangkane3", rowId: ".mangkane3"},
+    {title: "Mangkane4", rowId: ".mangkane4"},
+    {title: "Mangkane5", rowId: ".mangkane5"},
+    {title: "Mangkane6", rowId: ".mangkane6"},
+    {title: "Mangkane7", rowId: ".mangkane7"},
+    {title: "Mangkane8", rowId: ".mangkane8"},
+    {title: "Mangkane9", rowId: ".mangkane9"},
+    {title: "Mangkane10", rowId: ".mangkane10"},
+    {title: "Mangkane11", rowId: ".mangkane11"},
+    {title: "Mangkane12", rowId: ".mangkane12"},
+    {title: "Mangkane13", rowId: ".mangkane13"},
+    {title: "Mangkane14", rowId: ".mangkane14"},
+    {title: "Mangkane15", rowId: ".mangkane15"},
+    {title: "Mangkane16", rowId: ".mangkane16"},
+    {title: "Mangkane17", rowId: ".mangkane17"},
+    {title: "Mangkane18", rowId: ".mangkane18"},
+    {title: "Mangkane19", rowId: ".mangkane19"},
+    {title: "Mangkane20", rowId: ".mangkane20"},
+    {title: "Mangkane21", rowId: ".mangkane21"},
+    {title: "Mangkane22", rowId: ".mangkane22"},
+    {title: "Mangkane23", rowId: ".mangkane23"},
+    {title: "Mangkane24", rowId: ".mangkane24"},
+]
+    },{
 	title: `${htjava} SUPPORT ME –––––––·•`,
 	rows: [
 	    {title: "💹 • Donasi", rowId: ".owner nomor"},
